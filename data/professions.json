@@ -1,0 +1,136 @@
+[
+  {
+    "id": "developers",
+    "name": "Developers",
+    "description": "Software engineers, programmers, and technical professionals",
+    "icon": "Code",
+    "exampleQueries": [
+      "Official documentation",
+      "GitHub repositories",
+      "Framework tutorials",
+      "Package references"
+    ]
+  },
+  {
+    "id": "designers",
+    "name": "Designers",
+    "description": "UI/UX designers, graphic designers, and creatives",
+    "icon": "Palette",
+    "exampleQueries": [
+      "Inspiration websites",
+      "UI kits",
+      "Fonts",
+      "Icon collections"
+    ]
+  },
+  {
+    "id": "journalists",
+    "name": "Journalists",
+    "description": "Reporters, writers, and media professionals",
+    "icon": "Newspaper",
+    "exampleQueries": [
+      "Public reports",
+      "Government publications",
+      "Research papers"
+    ]
+  },
+  {
+    "id": "marketers",
+    "name": "Marketers",
+    "description": "Digital marketers, content marketers, and growth professionals",
+    "icon": "TrendingUp",
+    "exampleQueries": [
+      "Competitor websites",
+      "Industry reports",
+      "Trends"
+    ]
+  },
+  {
+    "id": "seo",
+    "name": "SEO Specialists",
+    "description": "Search engine optimization experts and digital marketers",
+    "icon": "Search",
+    "exampleQueries": [
+      "Index analysis",
+      "Content research",
+      "Keyword discovery"
+    ]
+  },
+  {
+    "id": "recruiters",
+    "name": "Recruiters",
+    "description": "Talent acquisition and HR professionals",
+    "icon": "Users",
+    "exampleQueries": [
+      "Portfolio discovery",
+      "Public resumes",
+      "LinkedIn alternatives"
+    ]
+  },
+  {
+    "id": "students",
+    "name": "Students",
+    "description": "Learners, academics, and educational professionals",
+    "icon": "GraduationCap",
+    "exampleQueries": [
+      "Academic papers",
+      "Open courses",
+      "Educational PDFs"
+    ]
+  },
+  {
+    "id": "founders",
+    "name": "Startup Founders",
+    "description": "Entrepreneurs and startup leaders",
+    "icon": "Rocket",
+    "exampleQueries": [
+      "Competitor analysis",
+      "Market research",
+      "Industry databases"
+    ]
+  },
+  {
+    "id": "writers",
+    "name": "Writers",
+    "description": "Authors, content creators, and copywriters",
+    "icon": "PenTool",
+    "exampleQueries": [
+      "References",
+      "Quotes",
+      "Public archives"
+    ]
+  },
+  {
+    "id": "researchers",
+    "name": "Researchers",
+    "description": "Academic researchers, data scientists, and analysts",
+    "icon": "BookOpen",
+    "exampleQueries": [
+      "Scientific papers",
+      "Datasets",
+      "Open publications"
+    ]
+  },
+  {
+    "id": "historians",
+    "name": "Historians",
+    "description": "History researchers and archivists",
+    "icon": "Clock",
+    "exampleQueries": [
+      "Historical documents",
+      "Archives",
+      "Past publications"
+    ]
+  },
+  {
+    "id": "data-analysts",
+    "name": "Data Analysts",
+    "description": "Data professionals and business intelligence experts",
+    "icon": "BarChart3",
+    "exampleQueries": [
+      "Datasets",
+      "Reports",
+      "Open data sources"
+    ]
+  }
+]

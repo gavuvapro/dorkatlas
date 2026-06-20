@@ -1,0 +1,77 @@
+[
+  {
+    "id": "ai",
+    "name": "AI",
+    "description": "Artificial intelligence and machine learning"
+  },
+  {
+    "id": "programming",
+    "name": "Programming",
+    "description": "Software development and coding"
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "description": "UI/UX, graphic design, and creative work"
+  },
+  {
+    "id": "business",
+    "name": "Business",
+    "description": "Business strategy and operations"
+  },
+  {
+    "id": "startups",
+    "name": "Startups",
+    "description": "Entrepreneurship and startup ecosystem"
+  },
+  {
+    "id": "psychology",
+    "name": "Psychology",
+    "description": "Behavioral science and mental health"
+  },
+  {
+    "id": "philosophy",
+    "name": "Philosophy",
+    "description": "Ethics, logic, and philosophical thought"
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "description": "Athletics and sports science"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "description": "Learning, teaching, and pedagogy"
+  },
+  {
+    "id": "science",
+    "name": "Science",
+    "description": "Natural sciences and research"
+  },
+  {
+    "id": "medicine",
+    "name": "Medicine",
+    "description": "Health sciences and medical research"
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "description": "Financial markets and economics"
+  },
+  {
+    "id": "history",
+    "name": "History",
+    "description": "Historical research and archives"
+  },
+  {
+    "id": "society",
+    "name": "Society",
+    "description": "Social sciences and current events"
+  },
+  {
+    "id": "culture",
+    "name": "Culture",
+    "description": "Arts, media, and cultural studies"
+  }
+]

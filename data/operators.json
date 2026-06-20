@@ -1,0 +1,327 @@
+[
+  {
+    "id": "site",
+    "name": "site:",
+    "description": "Restricts results to a specific website or domain.",
+    "syntax": "site:example.com",
+    "useCases": [
+      "Find content on a particular domain",
+      "Search within a company website",
+      "Locate pages on academic sites"
+    ],
+    "examples": [
+      "site:github.com next.js",
+      "site:arxiv.org machine learning",
+      "site:nytimes.com climate change"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Developers", "Journalists", "Researchers", "Students", "SEO Specialists"],
+    "intentTags": ["Research", "Documentation", "Learning", "Competitive Analysis"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "filetype",
+    "name": "filetype:",
+    "description": "Limits results to specific file types like PDF, DOC, XLS.",
+    "syntax": "filetype:pdf",
+    "useCases": [
+      "Find downloadable reports and whitepapers",
+      "Locate research documents",
+      "Discover presentations and spreadsheets"
+    ],
+    "examples": [
+      "filetype:pdf \"annual report\" 2025",
+      "filetype:docx resume template",
+      "filetype:pptx \"product roadmap\""
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Researchers", "Students", "Marketers", "Journalists", "Startup Founders"],
+    "intentTags": ["Research", "Academic Study", "Documentation", "Open Data"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "intitle",
+    "name": "intitle:",
+    "description": "Searches for keywords specifically in the page title.",
+    "syntax": "intitle:\"keyword\"",
+    "useCases": [
+      "Find pages with exact titles",
+      "Discover specific content titles",
+      "Target exact match titles"
+    ],
+    "examples": [
+      "intitle:\"Getting Started with Next.js\"",
+      "intitle:\"Annual Report 2025\" filetype:pdf",
+      "intitle:\"privacy policy\""
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Developers", "Writers", "SEO Specialists", "Marketers"],
+    "intentTags": ["Documentation", "SEO", "Research"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "inurl",
+    "name": "inurl:",
+    "description": "Finds pages containing keywords in the URL.",
+    "syntax": "inurl:keyword",
+    "useCases": [
+      "Locate specific directory structures",
+      "Find pages with particular path keywords",
+      "Discover content with URL patterns"
+    ],
+    "examples": [
+      "inurl:blog \"artificial intelligence\"",
+      "inurl:docs/api",
+      "inurl:research filetype:pdf"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Developers", "SEO Specialists", "Researchers"],
+    "intentTags": ["Research", "Documentation", "SEO"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "allintitle",
+    "name": "allintitle:",
+    "description": "Requires all keywords to appear in the page title.",
+    "syntax": "allintitle:keyword1 keyword2",
+    "useCases": [
+      "Precise title matching",
+      "Find exact title combinations"
+    ],
+    "examples": [
+      "allintitle:next.js tutorial",
+      "allintitle:climate change report"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Researchers", "Journalists", "Writers"],
+    "intentTags": ["Research", "Academic Study"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "allinurl",
+    "name": "allinurl:",
+    "description": "Requires all keywords to appear in the URL.",
+    "syntax": "allinurl:keyword1 keyword2",
+    "useCases": [
+      "Precise URL pattern matching",
+      "Discover specific site structures"
+    ],
+    "examples": [
+      "allinurl:api documentation",
+      "allinurl:research papers"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Developers", "Researchers"],
+    "intentTags": ["Documentation", "Research"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "related",
+    "name": "related:",
+    "description": "Finds pages similar or related to a given URL.",
+    "syntax": "related:example.com",
+    "useCases": [
+      "Discover competitor websites",
+      "Find similar content sources",
+      "Explore related domains"
+    ],
+    "examples": [
+      "related:github.com",
+      "related:nytimes.com",
+      "related:arxiv.org"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Marketers", "Startup Founders", "Journalists", "Researchers"],
+    "intentTags": ["Competitive Analysis", "Research", "Inspiration"],
+    "category": "Business",
+    "isAdvanced": false
+  },
+  {
+    "id": "cache",
+    "name": "cache:",
+    "description": "Shows the cached version of a specific webpage.",
+    "syntax": "cache:example.com",
+    "useCases": [
+      "View historical versions of pages",
+      "Access content that may have changed",
+      "Recover previously published content"
+    ],
+    "examples": [
+      "cache:example.com/about",
+      "cache:company.com/press-release"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Journalists", "Researchers", "Historians"],
+    "intentTags": ["Historical Archives", "Research"],
+    "category": "History",
+    "isAdvanced": false
+  },
+  {
+    "id": "before",
+    "name": "before:",
+    "description": "Filters results published before a specific date.",
+    "syntax": "before:2024-01-01",
+    "useCases": [
+      "Find historical content",
+      "Research pre-2024 developments",
+      "Analyze past trends"
+    ],
+    "examples": [
+      "climate change before:2020-01-01",
+      "\"machine learning\" before:2018-06-01 filetype:pdf"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Researchers", "Historians", "Journalists"],
+    "intentTags": ["Historical Archives", "Research"],
+    "category": "History",
+    "isAdvanced": false
+  },
+  {
+    "id": "after",
+    "name": "after:",
+    "description": "Filters results published after a specific date.",
+    "syntax": "after:2024-01-01",
+    "useCases": [
+      "Find recent content",
+      "Track latest developments",
+      "Analyze current trends"
+    ],
+    "examples": [
+      "AI regulation after:2024-01-01",
+      "\"open source\" after:2025-01-01"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Researchers", "Journalists", "Startup Founders"],
+    "intentTags": ["News", "Research"],
+    "category": "Society",
+    "isAdvanced": false
+  },
+  {
+    "id": "quotes",
+    "name": "\" \" (Exact Phrase)",
+    "description": "Searches for an exact phrase enclosed in quotes.",
+    "syntax": "\"exact phrase here\"",
+    "useCases": [
+      "Find exact quotes or phrases",
+      "Locate specific terminology",
+      "Precise search for names or titles"
+    ],
+    "examples": [
+      "\"artificial intelligence ethics\"",
+      "\"open source software\"",
+      "\"climate change mitigation\""
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Writers", "Researchers", "Journalists", "Students"],
+    "intentTags": ["Research", "Documentation", "Learning"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "minus",
+    "name": "- (Exclude)",
+    "description": "Excludes results containing a keyword.",
+    "syntax": "keyword -exclude",
+    "useCases": [
+      "Filter out irrelevant results",
+      "Exclude specific topics",
+      "Refine searches"
+    ],
+    "examples": [
+      "python tutorial -django",
+      "climate change -politics",
+      "\"machine learning\" -neural"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Developers", "Researchers", "Marketers"],
+    "intentTags": ["Research", "SEO"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "or",
+    "name": "OR",
+    "description": "Finds pages matching either of two keywords.",
+    "syntax": "keyword1 OR keyword2",
+    "useCases": [
+      "Broaden searches with synonyms",
+      "Cover multiple related topics"
+    ],
+    "examples": [
+      "typescript OR javascript",
+      "\"climate change\" OR \"global warming\"",
+      "react OR vue OR angular"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Developers", "Marketers", "Researchers"],
+    "intentTags": ["Research", "Learning"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "wildcard",
+    "name": "* (Wildcard)",
+    "description": "Matches any word or phrase in the position.",
+    "syntax": "keyword * keyword",
+    "useCases": [
+      "Find variations in phrasing",
+      "Locate specific sentence structures"
+    ],
+    "examples": [
+      "\"how to * next.js\"",
+      "climate * change",
+      "\"the future of * technology\""
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Writers", "Researchers", "SEO Specialists"],
+    "intentTags": ["Research", "Inspiration"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "parentheses",
+    "name": "() (Grouping)",
+    "description": "Groups terms for complex logical queries.",
+    "syntax": "(term1 OR term2) term3",
+    "useCases": [
+      "Build complex search logic",
+      "Combine multiple operators",
+      "Create precise nested queries"
+    ],
+    "examples": [
+      "(typescript OR javascript) tutorial",
+      "(climate OR environment) policy filetype:pdf",
+      "(\"machine learning\" OR AI) ethics"
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["Developers", "Researchers", "Data Analysts"],
+    "intentTags": ["Research", "Academic Study"],
+    "category": "Science",
+    "isAdvanced": true
+  },
+  {
+    "id": "author",
+    "name": "author:",
+    "description": "Finds content published by a specific author (when indexed).",
+    "syntax": "author:\"Author Name\"",
+    "useCases": [
+      "Find publications by researchers",
+      "Discover content by specific writers"
+    ],
+    "examples": [
+      "author:\"John Doe\" machine learning",
+      "author:\"Jane Smith\" climate"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Researchers", "Journalists", "Writers"],
+    "intentTags": ["Research", "Academic Study"],
+    "category": "Education",
+    "isAdvanced": false
+  }
+]

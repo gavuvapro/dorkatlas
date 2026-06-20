@@ -1,0 +1,57 @@
+[
+  {
+    "id": "learning",
+    "name": "Learning",
+    "description": "Educational and tutorial content"
+  },
+  {
+    "id": "research",
+    "name": "Research",
+    "description": "In-depth investigation and analysis"
+  },
+  {
+    "id": "documentation",
+    "name": "Documentation",
+    "description": "Official guides and references"
+  },
+  {
+    "id": "inspiration",
+    "name": "Inspiration",
+    "description": "Creative ideas and examples"
+  },
+  {
+    "id": "seo",
+    "name": "SEO",
+    "description": "Search engine optimization research"
+  },
+  {
+    "id": "academic",
+    "name": "Academic Study",
+    "description": "Scholarly and scientific content"
+  },
+  {
+    "id": "competitive",
+    "name": "Competitive Analysis",
+    "description": "Market and competitor research"
+  },
+  {
+    "id": "news",
+    "name": "News",
+    "description": "Current events and recent developments"
+  },
+  {
+    "id": "career",
+    "name": "Career",
+    "description": "Professional development and job search"
+  },
+  {
+    "id": "open-data",
+    "name": "Open Data",
+    "description": "Public datasets and open resources"
+  },
+  {
+    "id": "historical",
+    "name": "Historical Archives",
+    "description": "Past content and historical records"
+  }
+]
