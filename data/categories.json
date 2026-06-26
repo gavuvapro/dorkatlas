@@ -2,76 +2,241 @@
   {
     "id": "ai",
     "name": "AI",
-    "description": "Artificial intelligence and machine learning"
+    "description": "Artificial intelligence, machine learning, deep learning, neural networks, LLMs, computer vision, NLP"
   },
   {
     "id": "programming",
     "name": "Programming",
-    "description": "Software development and coding"
+    "description": "Software development, coding, frameworks, libraries, APIs, scripts, algorithms, data structures"
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "description": "Information security, penetration testing, vulnerability research, encryption, authentication"
+  },
+  {
+    "id": "web-dev",
+    "name": "Web Development",
+    "description": "Frontend, backend, full-stack development, web apps, APIs, cloud services, hosting"
+  },
+  {
+    "id": "mobile-dev",
+    "name": "Mobile Development",
+    "description": "iOS, Android, React Native, Flutter, mobile apps, PWA, mobile security"
+  },
+  {
+    "id": "data-science",
+    "name": "Data Science",
+    "description": "Big data, analytics, visualization, statistics, data engineering, data mining"
+  },
+  {
+    "id": "devops",
+    "name": "DevOps",
+    "description": "CI/CD, infrastructure, containers, Kubernetes, Docker, deployment, monitoring"
   },
   {
     "id": "design",
     "name": "Design",
-    "description": "UI/UX, graphic design, and creative work"
+    "description": "UI/UX, graphic design, web design, product design, Figma, Adobe Creative Suite"
   },
   {
     "id": "business",
     "name": "Business",
-    "description": "Business strategy and operations"
+    "description": "Strategy, operations, management, entrepreneurship, startups, SMB, enterprise"
   },
   {
     "id": "startups",
     "name": "Startups",
-    "description": "Entrepreneurship and startup ecosystem"
+    "description": "Entrepreneurship, venture capital, fundraising, MVP, product-market fit, growth hacking"
   },
   {
-    "id": "psychology",
-    "name": "Psychology",
-    "description": "Behavioral science and mental health"
+    "id": "marketing",
+    "name": "Marketing",
+    "description": "Digital marketing, content marketing, social media, advertising, brand strategy"
   },
   {
-    "id": "philosophy",
-    "name": "Philosophy",
-    "description": "Ethics, logic, and philosophical thought"
+    "id": "seo-sem",
+    "name": "SEO/SEM",
+    "description": "Search engine optimization, paid search, keyword research, link building"
   },
   {
-    "id": "sports",
-    "name": "Sports",
-    "description": "Athletics and sports science"
-  },
-  {
-    "id": "education",
-    "name": "Education",
-    "description": "Learning, teaching, and pedagogy"
-  },
-  {
-    "id": "science",
-    "name": "Science",
-    "description": "Natural sciences and research"
-  },
-  {
-    "id": "medicine",
-    "name": "Medicine",
-    "description": "Health sciences and medical research"
+    "id": "sales",
+    "name": "Sales",
+    "description": "B2B sales, SaaS sales, lead generation, sales processes, CRM, revenue"
   },
   {
     "id": "finance",
     "name": "Finance",
-    "description": "Financial markets and economics"
+    "description": "Investing, trading, fintech, accounting, financial analysis, cryptocurrency"
+  },
+  {
+    "id": "crypto",
+    "name": "Cryptocurrency",
+    "description": "Bitcoin, Ethereum, blockchain, DeFi, NFTs, web3, smart contracts"
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare",
+    "description": "Medical research, telemedicine, healthtech, biotech, pharmaceuticals, patient care"
+  },
+  {
+    "id": "medicine",
+    "name": "Medicine",
+    "description": "Clinical research, medical journals, diagnostics, treatment, epidemiology"
+  },
+  {
+    "id": "biotech",
+    "name": "Biotechnology",
+    "description": "Genetic engineering, CRISPR, synthetic biology, bioinformatics, genomics"
+  },
+  {
+    "id": "science",
+    "name": "Science",
+    "description": "Physics, chemistry, biology, astronomy, scientific research, peer review"
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "description": "Quantum mechanics, relativity, particle physics, astrophysics, thermodynamics"
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "description": "Organic chemistry, biochemistry, materials science, chemical reactions"
+  },
+  {
+    "id": "biology",
+    "name": "Biology",
+    "description": "Molecular biology, ecology, evolution, microbiology, botany, zoology"
+  },
+  {
+    "id": "astronomy",
+    "name": "Astronomy",
+    "description": "Space exploration, telescopes, cosmology, exoplanets, astrophysics"
+  },
+  {
+    "id": "climate",
+    "name": "Climate Science",
+    "description": "Climate change, meteorology, environmental science, sustainability, renewable energy"
   },
   {
     "id": "history",
     "name": "History",
-    "description": "Historical research and archives"
+    "description": "Ancient history, modern history, archival research, historical documents, timelines"
+  },
+  {
+    "id": "psychology",
+    "name": "Psychology",
+    "description": "Cognitive science, behavioral psychology, mental health, therapy, neuroscience"
+  },
+  {
+    "id": "philosophy",
+    "name": "Philosophy",
+    "description": "Ethics, metaphysics, epistemology, logic, existentialism, stoicism"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "description": "Pedagogy, online learning, curriculum, teaching methods, educational technology"
+  },
+  {
+    "id": "law",
+    "name": "Law",
+    "description": "Legal research, case law, regulations, compliance, intellectual property"
+  },
+  {
+    "id": "government",
+    "name": "Government",
+    "description": "Public policy, legislation, civic data, government documents, freedom of information"
+  },
+  {
+    "id": "politics",
+    "name": "Politics",
+    "description": "Political science, elections, policy analysis, political parties, campaigns"
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "description": "Athletics, sports analytics, professional sports, Olympic games, fitness"
+  },
+  {
+    "id": "gaming",
+    "name": "Gaming",
+    "description": "Video games, esports, game development, gaming industry, VR gaming"
   },
   {
     "id": "society",
     "name": "Society",
-    "description": "Social sciences and current events"
+    "description": "Social sciences, demographics, sociology, anthropology, current events"
   },
   {
     "id": "culture",
     "name": "Culture",
-    "description": "Arts, media, and cultural studies"
+    "description": "Arts, media, entertainment, literature, music, film, cultural studies"
+  },
+  {
+    "id": "literature",
+    "name": "Literature",
+    "description": "Novels, poetry, literary analysis, book reviews, author studies"
+  },
+  {
+    "id": "media",
+    "name": "Media",
+    "description": "Journalism, broadcasting, content creation, media studies, press"
+  },
+  {
+    "id": "news",
+    "name": "News",
+    "description": "Current events, breaking news, investigative reporting, press releases"
+  },
+  {
+    "id": "real-estate",
+    "name": "Real Estate",
+    "description": "Property listings, market analysis, commercial real estate, zoning"
+  },
+  {
+    "id": "automotive",
+    "name": "Automotive",
+    "description": "Cars, electric vehicles, auto industry, mechanics, Tesla, autonomous driving"
+  },
+  {
+    "id": "travel",
+    "name": "Travel",
+    "description": "Tourism, destinations, travel guides, hotels, flights, visa requirements"
+  },
+  {
+    "id": "food",
+    "name": "Food & Cooking",
+    "description": "Recipes, restaurants, culinary arts, nutrition, food science, gastronomy"
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "description": "Music theory, artists, genres, instruments, music production, streaming"
+  },
+  {
+    "id": "art",
+    "name": "Visual Arts",
+    "description": "Painting, sculpture, digital art, art history, galleries, museums"
+  },
+  {
+    "id": "research",
+    "name": "Academic Research",
+    "description": "Scholarly articles, research methodology, citations, peer review, journals"
+  },
+  {
+    "id": "legal",
+    "name": "Legal Research",
+    "description": "Case law, statutes, regulations, legal documents, court records"
+  },
+  {
+    "id": "security",
+    "name": "Security Research",
+    "description": "Vulnerability research, penetration testing, bug bounty, threat intel"
+  },
+  {
+    "id": "osint",
+    "name": "OSINT",
+    "description": "Open source intelligence, reconnaissance, public records, investigations"
   }
 ]

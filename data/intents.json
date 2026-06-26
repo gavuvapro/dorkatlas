@@ -2,37 +2,37 @@
   {
     "id": "learning",
     "name": "Learning",
-    "description": "Educational and tutorial content"
+    "description": "Educational and tutorial content for skill acquisition"
   },
   {
     "id": "research",
     "name": "Research",
-    "description": "In-depth investigation and analysis"
+    "description": "In-depth investigation and analysis for knowledge discovery"
   },
   {
     "id": "documentation",
     "name": "Documentation",
-    "description": "Official guides and references"
+    "description": "Official guides, API references, and technical documentation"
   },
   {
     "id": "inspiration",
     "name": "Inspiration",
-    "description": "Creative ideas and examples"
+    "description": "Creative ideas, examples, and design inspiration"
   },
   {
     "id": "seo",
     "name": "SEO",
-    "description": "Search engine optimization research"
+    "description": "Search engine optimization research and keyword discovery"
   },
   {
     "id": "academic",
     "name": "Academic Study",
-    "description": "Scholarly and scientific content"
+    "description": "Scholarly and scientific content for academic research"
   },
   {
     "id": "competitive",
     "name": "Competitive Analysis",
-    "description": "Market and competitor research"
+    "description": "Market and competitor research for strategic planning"
   },
   {
     "id": "news",
@@ -42,16 +42,181 @@
   {
     "id": "career",
     "name": "Career",
-    "description": "Professional development and job search"
+    "description": "Professional development, job search, and industry trends"
   },
   {
     "id": "open-data",
     "name": "Open Data",
-    "description": "Public datasets and open resources"
+    "description": "Public datasets, open resources, and accessible information"
   },
   {
     "id": "historical",
     "name": "Historical Archives",
-    "description": "Past content and historical records"
+    "description": "Past content, historical records, and archival materials"
+  },
+  {
+    "id": "job-hunt",
+    "name": "Job Hunting",
+    "description": "Finding employment opportunities and career openings"
+  },
+  {
+    "id": "talent-scout",
+    "name": "Talent Scouting",
+    "description": "Discovering skilled professionals and portfolios"
+  },
+  {
+    "id": "security-audit",
+    "name": "Security Audit",
+    "description": "Vulnerability assessment and security research"
+  },
+  {
+    "id": "penetration-testing",
+    "name": "Penetration Testing",
+    "description": "Ethical hacking and system vulnerability testing"
+  },
+  {
+    "id": "cyber-research",
+    "name": "Cybersecurity Research",
+    "description": "Threat intelligence and security vulnerability discovery"
+  },
+  {
+    "id": "bug-bounty",
+    "name": "Bug Bounty",
+    "description": "Finding security vulnerabilities for rewards"
+  },
+  {
+    "id": "osint-gathering",
+    "name": "OSINT Gathering",
+    "description": "Open source intelligence collection and analysis"
+  },
+  {
+    "id": "investigative",
+    "name": "Investigative Research",
+    "description": "Deep investigation and fact-checking"
+  },
+  {
+    "id": "fact-checking",
+    "name": "Fact Checking",
+    "description": "Verification of claims and sources"
+  },
+  {
+    "id": "business-intelligence",
+    "name": "Business Intelligence",
+    "description": "Market insights and business competitive research"
+  },
+  {
+    "id": "market-research",
+    "name": "Market Research",
+    "description": "Consumer behavior and market analysis"
+  },
+  {
+    "id": "product-research",
+    "name": "Product Research",
+    "description": "Product features, alternatives, and comparisons"
+  },
+  {
+    "id": "regulatory",
+    "name": "Regulatory Research",
+    "description": "Compliance, regulations, and legal requirements"
+  },
+  {
+    "id": "legal-evidence",
+    "name": "Legal Evidence",
+    "description": "Finding court cases, precedents, and legal documents"
+  },
+  {
+    "id": "patent-search",
+    "name": "Patent Search",
+    "description": "Intellectual property and patent discovery"
+  },
+  {
+    "id": "medical-research",
+    "name": "Medical Research",
+    "description": "Clinical studies, medical papers, and health data"
+  },
+  {
+    "id": "clinical-trials",
+    "name": "Clinical Trials",
+    "description": "Research on drug trials and medical studies"
+  },
+  {
+    "id": "court-documents",
+    "name": "Court Documents",
+    "description": "Legal filings, case law, and court records"
+  },
+  {
+    "id": "government-data",
+    "name": "Government Data",
+    "description": "Public datasets and government publications"
+  },
+  {
+    "id": "public-records",
+    "name": "Public Records",
+    "description": "Freedom of information and public datasets"
+  },
+  {
+    "id": "financial-data",
+    "name": "Financial Data",
+    "description": "Stocks, earnings, financial reports and analysis"
+  },
+  {
+    "id": "crypto-research",
+    "name": "Crypto Research",
+    "description": "Blockchain data, token analysis, and DeFi research"
+  },
+  {
+    "id": "nfts",
+    "name": "NFT Research",
+    "description": "Digital collectibles and NFT marketplace data"
+  },
+  {
+    "id": "technical-deep-dive",
+    "name": "Technical Deep Dive",
+    "description": "Deep technical documentation and architecture"
+  },
+  {
+    "id": "code-archaeology",
+    "name": "Code Archaeology",
+    "description": "Finding legacy code and old documentation"
+  },
+  {
+    "id": "api-discovery",
+    "name": "API Discovery",
+    "description": "Finding public APIs and developer resources"
+  },
+  {
+    "id": "dataset-hunting",
+    "name": "Dataset Hunting",
+    "description": "Locating open datasets for analysis"
+  },
+  {
+    "id": "template-finding",
+    "name": "Template Finding",
+    "description": "Finding document templates and samples"
+  },
+  {
+    "id": "resume-building",
+    "name": "Resume Building",
+    "description": "Professional resume and portfolio examples"
+  },
+  {
+    "id": "academic-writing",
+    "name": "Academic Writing",
+    "description": "Research papers, citations, and academic examples"
+  },
+  {
+    "id": "literature-review",
+    "name": "Literature Review",
+    "description": "Comprehensive survey of published literature"
+  },
+  {
+    "id": "citation-mining",
+    "name": "Citation Mining",
+    "description": "Finding academic citations and references"
+  },
+  {
+    "id": "conference-research",
+    "name": "Conference Research",
+    "description": "Academic conferences and presentation materials"
   }
 ]

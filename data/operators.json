@@ -323,5 +323,738 @@
     "intentTags": ["Research", "Academic Study"],
     "category": "Education",
     "isAdvanced": false
+  },
+  {
+    "id": "inanchor",
+    "name": "inanchor:",
+    "description": "Searches for keywords in anchor text of links pointing to pages.",
+    "syntax": "inanchor:keyword",
+    "useCases": [
+      "Find pages linking with specific anchor text",
+      "Discover backlinks by keyword",
+      "Locate resource pages by link description"
+    ],
+    "examples": [
+      "inanchor:\"machine learning course\"",
+      "inanchor:download filetype:pdf",
+      "inanchor:source site:github.com"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["SEO Specialists", "Researchers", "Marketers"],
+    "intentTags": ["SEO", "Research", "Competitive Analysis"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "allintext",
+    "name": "allintext:",
+    "description": "Requires all keywords to appear in the page text.",
+    "syntax": "allintext:keyword1 keyword2",
+    "useCases": [
+      "Ensure all terms are present in content",
+      "Find pages covering multiple topics",
+      "Precision text matching"
+    ],
+    "examples": [
+      "allintext:machine learning algorithms",
+      "allintext:climate change effects"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Researchers", "Data Analysts", "Journalists"],
+    "intentTags": ["Research", "Academic Study"],
+    "category": "Science",
+    "isAdvanced": false
+  },
+  {
+    "id": "intext",
+    "name": "intext:",
+    "description": "Searches for keywords specifically in the page body text.",
+    "syntax": "intext:keyword",
+    "useCases": [
+      "Find pages mentioning specific terms",
+      "Search within article content",
+      "Locate mentions in page body"
+    ],
+    "examples": [
+      "intext:\"artificial intelligence\"",
+      "intext:confidential NOT site:gov",
+      "intext:API documentation"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Researchers", "Journalists", "Developers"],
+    "intentTags": ["Research", "Documentation"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "link",
+    "name": "link:",
+    "description": "Finds pages that link to a specific URL.",
+    "syntax": "link:example.com",
+    "useCases": [
+      "Find backlinks to your site",
+      "Discover who references a page",
+      "Analyze link popularity"
+    ],
+    "examples": [
+      "link:github.com",
+      "link:wikipedia.org"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["SEO Specialists", "Marketers", "Researchers"],
+    "intentTags": ["SEO", "Competitive Analysis", "Research"],
+    "category": "Business",
+    "isAdvanced": false
+  },
+  {
+    "id": "define",
+    "name": "define:",
+    "description": "Finds definitions of a word or phrase.",
+    "syntax": "define:term",
+    "useCases": [
+      "Look up word definitions",
+      "Find technical term meanings",
+      "Discover multiple definition sources"
+    ],
+    "examples": [
+      "define:photosynthesis",
+      "define:blockchain technology",
+      "define:quantum computing"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Students", "Researchers", "Writers"],
+    "intentTags": ["Learning", "Research"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "info",
+    "name": "info:",
+    "description": "Provides information about a specific URL including related pages and cached versions.",
+    "syntax": "info:example.com",
+    "useCases": [
+      "Get page information",
+      "Find related and cached versions",
+      "Check indexed status"
+    ],
+    "examples": [
+      "info:nytimes.com",
+      "info:wikipedia.org"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["SEO Specialists", "Researchers", "Developers"],
+    "intentTags": ["Research", "SEO"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "location",
+    "name": "location:",
+    "description": "Restricts results to pages from a specific geographic location.",
+    "syntax": "location:country",
+    "useCases": [
+      "Find local businesses",
+      "Regional content discovery",
+      "Country-specific results"
+    ],
+    "examples": [
+      "location:uk london",
+      "location:ca toronto startups",
+      "location:jp technology"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Marketers", "Recruiters", "Startup Founders"],
+    "intentTags": ["Business", "Competitive Analysis"],
+    "category": "Business",
+    "isAdvanced": false
+  },
+  {
+    "id": "contains",
+    "name": "contains:",
+    "description": "Finds pages containing a specific substring (rarely supported).",
+    "syntax": "contains:term",
+    "useCases": [
+      "Find pages with partial matches",
+      "Search for specific strings"
+    ],
+    "examples": [
+      "contains:CHANGELOG",
+      "contains:API_KEY"
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["Security Researchers", "Developers"],
+    "intentTags": ["Research", "Security"],
+    "category": "Science",
+    "isAdvanced": true
+  },
+  {
+    "id": "ext",
+    "name": "ext:",
+    "description": "Alternative to filetype - limits results to specific file extensions.",
+    "syntax": "ext:pdf",
+    "useCases": [
+      "Find specific file extensions",
+      "Locate source code files",
+      "Discover document formats"
+    ],
+    "examples": [
+      "ext:pdf annual report",
+      "ext:py python tutorial",
+      "ext:js react component"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Developers", "Researchers", "Students"],
+    "intentTags": ["Research", "Documentation", "Learning"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "domain",
+    "name": "domain:",
+    "description": "Alternative to site - restricts to a specific domain.",
+    "syntax": "domain:example.com",
+    "useCases": [
+      "Search within a domain",
+      "Find content on specific sites",
+      "Scope search to domain only"
+    ],
+    "examples": [
+      "domain:edu machine learning",
+      "domain:gov climate data",
+      "domain:org open source"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Researchers", "Students", "Journalists"],
+    "intentTags": ["Research", "Academic Study", "Open Data"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "AROUND",
+    "name": "* (AROUND)",
+    "description": "Finds words that appear near each other in the content.",
+    "syntax": "word1 AROUND(N) word2",
+    "useCases": [
+      "Proximity search between terms",
+      "Find related concepts",
+      "Discover contextual relationships"
+    ],
+    "examples": [
+      "climate AROUND(3) change",
+      "machine AROUND(5) learning algorithms",
+      "startup AROUND(2) funding"
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["Researchers", "Data Analysts", "Writers"],
+    "intentTags": ["Research", "Academic Study", "Inspiration"],
+    "category": "Science",
+    "isAdvanced": true
+  },
+  {
+    "id": "source",
+    "name": "source:",
+    "description": "Finds articles from a specific news source (Google News).",
+    "syntax": "source:news-outlet",
+    "useCases": [
+      "Find articles from specific news sites",
+      "Track coverage from particular outlets",
+      "Compare reporting across sources"
+    ],
+    "examples": [
+      "source:reuters AI regulation",
+      "source:bbc climate change"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Journalists", "Researchers"],
+    "intentTags": ["News", "Research"],
+    "category": "Society",
+    "isAdvanced": false
+  },
+  {
+    "id": "stock",
+    "name": "stock:",
+    "description": "Finds stock information for ticker symbols.",
+    "syntax": "stock:TICKER",
+    "useCases": [
+      "Find stock price info",
+      "Get company financials",
+      "Research investment data"
+    ],
+    "examples": [
+      "stock:aapl",
+      "stock:googl revenue"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Investors", "Finance", "Researchers"],
+    "intentTags": ["Finance", "Research"],
+    "category": "Finance",
+    "isAdvanced": false
+  },
+  {
+    "id": "map",
+    "name": "map:",
+    "description": "Shows map results for locations.",
+    "syntax": "map:location",
+    "useCases": [
+      "Find businesses on maps",
+      "Locate geographic entities",
+      "Discover places"
+    ],
+    "examples": [
+      "map:pizza near central park",
+      "map:tech companies san francisco"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Marketers", "Recruiters", "Startup Founders"],
+    "intentTags": ["Business", "Competitive Analysis"],
+    "category": "Business",
+    "isAdvanced": false
+  },
+  {
+    "id": "daterange",
+    "name": "daterange:",
+    "description": "Finds results within a specific date range (Julian dates).",
+    "syntax": "daterange:start end",
+    "useCases": [
+      "Historical date range search",
+      "Time-bound research",
+      "Archive exploration"
+    ],
+    "examples": [
+      "daterange:2459200 2459500 pandemic"
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["Researchers", "Historians", "Journalists"],
+    "intentTags": ["Historical Archives", "Research"],
+    "category": "History",
+    "isAdvanced": true
+  },
+  {
+    "id": "safesearch",
+    "name": "safesearch:",
+    "description": "Enables or disables safe search filtering.",
+    "syntax": "safesearch:on/off",
+    "useCases": [
+      "Control content filtering",
+      "Find sensitive content (off)",
+      "Filter explicit results (on)"
+    ],
+    "examples": [
+      "safesearch:off medical research",
+      "safesearch:on student search"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Students", "Researchers", "Educators"],
+    "intentTags": ["Learning", "Research", "Academic Study"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "insubject",
+    "name": "insubject:",
+    "description": "Finds keywords in the subject line (Google Groups).",
+    "syntax": "insubject:keyword",
+    "useCases": [
+      "Search mailing list archives",
+      "Find forum discussions",
+      "Locate topic threads"
+    ],
+    "examples": [
+      "insubject:react hooks",
+      "insubject:machine learning"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Developers", "Researchers"],
+    "intentTags": ["Research", "Learning"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "allinanchor",
+    "name": "allinanchor:",
+    "description": "Requires all keywords in anchor text of linking pages.",
+    "syntax": "allinanchor:keyword1 keyword2",
+    "useCases": [
+      "Precise backlink discovery",
+      "Find links with multiple terms",
+      "SEO anchor text analysis"
+    ],
+    "examples": [
+      "allinanchor:machine learning tutorial",
+      "allinanchor:buy now"
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["SEO Specialists", "Marketers"],
+    "intentTags": ["SEO", "Competitive Analysis"],
+    "category": "Business",
+    "isAdvanced": true
+  },
+  {
+    "id": "linkfrom",
+    "name": "linkfrom:",
+    "description": "Finds pages linked from a specific domain.",
+    "syntax": "linkfrom:domain",
+    "useCases": [
+      "Discover referral sources",
+      "Find traffic partnerships",
+      "Analyze linking patterns"
+    ],
+    "examples": [
+      "linkfrom:edu research",
+      "linkfrom:gov report"
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["SEO Specialists", "Researchers"],
+    "intentTags": ["SEO", "Research"],
+    "category": "Science",
+    "isAdvanced": true
+  },
+  {
+    "id": "phonebook",
+    "name": "phonebook:",
+    "description": "Finds phone numbers (deprecated but may work).",
+    "syntax": "phonebook:name",
+    "useCases": [
+      "Find business contacts",
+      "Locate people (public records)"
+    ],
+    "examples": [
+      "phonebook:google"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Recruiters", "Researchers"],
+    "intentTags": ["Research", "Career"],
+    "category": "Business",
+    "isAdvanced": false
+  },
+  {
+    "id": "stocks",
+    "name": "stocks:",
+    "description": "Alternative to stock: for financial information.",
+    "syntax": "stocks:TICKER",
+    "useCases": [
+      "Get financial data",
+      "Track market performance",
+      "Research company stocks"
+    ],
+    "examples": [
+      "stocks:tsla",
+      "stocks:amzn news"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Finance", "Investors", "Researchers"],
+    "intentTags": ["Finance", "Research"],
+    "category": "Finance",
+    "isAdvanced": false
+  },
+  {
+    "id": "weather",
+    "name": "weather:",
+    "description": "Shows weather information for locations.",
+    "syntax": "weather:location",
+    "useCases": [
+      "Check current weather",
+      "Find weather forecasts",
+      "Climate data discovery"
+    ],
+    "examples": [
+      "weather:new york",
+      "weather:london uk"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Researchers", "Students"],
+    "intentTags": ["Research"],
+    "category": "Science",
+    "isAdvanced": false
+  },
+  {
+    "id": "movie",
+    "name": "movie:",
+    "description": "Finds information about movies.",
+    "syntax": "movie:movie-title",
+    "useCases": [
+      "Find movie details",
+      "Discover showtimes",
+      "Get cast information"
+    ],
+    "examples": [
+      "movie:inception",
+      "movie:batman"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Researchers"],
+    "intentTags": ["Research"],
+    "category": "Culture",
+    "isAdvanced": false
+  },
+  {
+    "id": "filetypedocs",
+    "name": "filetype: (docs)",
+    "description": "Finds Microsoft Word documents (.doc, .docx).",
+    "syntax": "filetype:doc OR filetype:docx",
+    "useCases": [
+      "Locate Word documents",
+      "Find editable content",
+      "Discover contract templates"
+    ],
+    "examples": [
+      "filetype:doc contract",
+      "filetype:docx resume",
+      "filetype:doc white paper"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Researchers", "Students", "Lawyers"],
+    "intentTags": ["Research", "Documentation"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "filetypesheet",
+    "name": "filetype: (spreadsheets)",
+    "description": "Finds Excel and spreadsheet files.",
+    "syntax": "filetype:xls OR filetype:xlsx OR filetype:csv",
+    "useCases": [
+      "Find financial spreadsheets",
+      "Locate data tables",
+      "Discover budget templates"
+    ],
+    "examples": [
+      "filetype:xls budget",
+      "filetype:csv dataset",
+      "filetype:xlsx financial"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Data Analysts", "Students", "Marketers"],
+    "intentTags": ["Open Data", "Research"],
+    "category": "Finance",
+    "isAdvanced": false
+  },
+  {
+    "id": "filetypepresentation",
+    "name": "filetype: (presentations)",
+    "description": "Finds PowerPoint and presentation files.",
+    "syntax": "filetype:ppt OR filetype:pptx",
+    "useCases": [
+      "Find presentation decks",
+      "Discover slide templates",
+      "Locate pitch decks"
+    ],
+    "examples": [
+      "filetype:ppt machine learning",
+      "filetype:pptx startup pitch",
+      "filetype:ppt conference"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Startup Founders", "Students", "Researchers"],
+    "intentTags": ["Learning", "Inspiration"],
+    "category": "Education",
+    "isAdvanced": false
+  },
+  {
+    "id": "filetypecode",
+    "name": "filetype: (code)",
+    "description": "Finds source code files and scripts.",
+    "syntax": "filetype:js OR filetype:py OR filetype:java",
+    "useCases": [
+      "Find open source code",
+      "Discover sample scripts",
+      "Research programming patterns"
+    ],
+    "examples": [
+      "filetype:js react component",
+      "filetype:py machine learning",
+      "filetype:java spring boot"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Developers", "Researchers"],
+    "intentTags": ["Learning", "Research", "Documentation"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "filetypeconfig",
+    "name": "filetype: (configs)",
+    "description": "Finds configuration files and settings.",
+    "syntax": "filetype:json OR filetype:xml OR filetype:yaml",
+    "useCases": [
+      "Find config examples",
+      "Discover API configurations",
+      "Research deployment settings"
+    ],
+    "examples": [
+      "filetype:json eslint",
+      "filetype:yaml kubernetes",
+      "filetype:xml config"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Developers", "DevOps"],
+    "intentTags": ["Learning", "Documentation"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "filetypelog",
+    "name": "filetype: (logs)",
+    "description": "Finds log files and error logs.",
+    "syntax": "filetype:log",
+    "useCases": [
+      "Find debug information",
+      "Discover error patterns",
+      "Research system logs"
+    ],
+    "examples": [
+      "filetype:log error",
+      "filetype:log access",
+      "filetype:log application"
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["DevOps", "Security Researchers"],
+    "intentTags": ["Research", "Security"],
+    "category": "Science",
+    "isAdvanced": true
+  },
+  {
+    "id": "filetypebackup",
+    "name": "filetype: (backups)",
+    "description": "Finds backup files and database exports.",
+    "syntax": "filetype:bak OR filetype:backup OR filetype:sql",
+    "useCases": [
+      "Security research",
+      "Find exposed data",
+      "Backup recovery"
+    ],
+    "examples": [
+      "filetype:sql database",
+      "filetype:bak backup",
+      "filetype:backup config"
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["Security Researchers", "DevOps"],
+    "intentTags": ["Security", "Research"],
+    "category": "Security",
+    "isAdvanced": true
+  },
+  {
+    "id": "filetypedb",
+    "name": "filetype: (databases)",
+    "description": "Finds database dumps and exports.",
+    "syntax": "filetype:db OR filetype:mdb OR filetype:sqlite",
+    "useCases": [
+      "Find database files",
+      "Discover data exports",
+      "Research data structures"
+    ],
+    "examples": [
+      "filetype:db export",
+      "filetype:sqlite research",
+      "filetype:mdb access"
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["Data Analysts", "Security Researchers"],
+    "intentTags": ["Open Data", "Security"],
+    "category": "Finance",
+    "isAdvanced": true
+  },
+  {
+    "id": "wildcardmulti",
+    "name": "* (Multi-word Wildcard)",
+    "description": "Matches multiple unknown words between known terms.",
+    "syntax": "\"phrase * phrase\"",
+    "useCases": [
+      "Fill in the blanks searches",
+      "Find phrase variations",
+      "Discover content patterns"
+    ],
+    "examples": [
+      "\"the * of artificial intelligence\"",
+      "\"how * * machine learning\"",
+      "\"future * technology\""
+    ],
+    "difficulty": "Advanced",
+    "professionTags": ["Writers", "Researchers"],
+    "intentTags": ["Research", "Inspiration"],
+    "category": "Education",
+    "isAdvanced": true
+  },
+  {
+    "id": "numrange",
+    "name": ".. (Number Range)",
+    "description": "Finds results containing numbers within a specified range.",
+    "syntax": "number1..number2",
+    "useCases": [
+      "Find content with specific years",
+      "Search within value ranges",
+      "Discover numbered lists"
+    ],
+    "examples": [
+      "2010..2024 research paper",
+      "1000..5000 users saas",
+      "50..100 employees startup"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Researchers", "Data Analysts", "Startup Founders"],
+    "intentTags": ["Research", "Competitive Analysis"],
+    "category": "Business",
+    "isAdvanced": false
+  },
+  {
+    "id": "cached",
+    "name": "cached:",
+    "description": "Show Google's cached snapshot of a page.",
+    "syntax": "cached:example.com",
+    "useCases": [
+      "View cached page versions",
+      "Access archived content",
+      "See indexed snapshots"
+    ],
+    "examples": [
+      "cached:news.ycombinator.com",
+      "cached:wikipedia.org"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["Researchers", "Journalists"],
+    "intentTags": ["Historical Archives", "Research"],
+    "category": "History",
+    "isAdvanced": false
+  },
+  {
+    "id": "url",
+    "name": "url:",
+    "description": "Finds pages with the exact URL specified.",
+    "syntax": "url:example.com/page",
+    "useCases": [
+      "Find exact page URLs",
+      "Verify indexed pages",
+      "Locate specific endpoints"
+    ],
+    "examples": [
+      "url:github.com/features",
+      "url:vercel.com/docs"
+    ],
+    "difficulty": "Beginner",
+    "professionTags": ["SEO Specialists", "Developers"],
+    "intentTags": ["SEO", "Documentation"],
+    "category": "Programming",
+    "isAdvanced": false
+  },
+  {
+    "id": "verbatim",
+    "name": "verbatim:",
+    "description": "Search for exact terms without spelling corrections.",
+    "syntax": "verbatim:true",
+    "useCases": [
+      "Disable search corrections",
+      "Find exact technical terms",
+      "Search for specific spellings"
+    ],
+    "examples": [
+      "verbatim:true quantum",
+      "verbatim:true kubernetes"
+    ],
+    "difficulty": "Intermediate",
+    "professionTags": ["Researchers", "Developers"],
+    "intentTags": ["Research", "Documentation"],
+    "category": "Programming",
+    "isAdvanced": false
   }
 ]

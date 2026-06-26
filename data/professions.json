@@ -2,36 +2,175 @@
   {
     "id": "developers",
     "name": "Developers",
-    "description": "Software engineers, programmers, and technical professionals",
+    "description": "Software engineers, programmers, and technical professionals building applications and systems",
     "icon": "Code",
     "exampleQueries": [
       "Official documentation",
       "GitHub repositories",
       "Framework tutorials",
-      "Package references"
+      "Package references",
+      "API endpoints",
+      "Code examples",
+      "Stack Overflow answers"
+    ]
+  },
+  {
+    "id": "frontend-developers",
+    "name": "Frontend Developers",
+    "description": "UI engineers specializing in React, Vue, Angular, HTML/CSS, and client-side frameworks",
+    "icon": "Monitor",
+    "exampleQueries": [
+      "React component examples",
+      "CSS animation tutorials",
+      "UI library documentation",
+      "Frontend performance tips",
+      "JavaScript frameworks comparison"
+    ]
+  },
+  {
+    "id": "backend-developers",
+    "name": "Backend Developers",
+    "description": "Server-side engineers working with APIs, databases, cloud infrastructure, and microservices",
+    "icon": "Server",
+    "exampleQueries": [
+      "API design patterns",
+      "Database optimization",
+      "Cloud deployment guides",
+      "Node.js best practices",
+      "REST API documentation"
+    ]
+  },
+  {
+    "id": "fullstack-developers",
+    "name": "Fullstack Developers",
+    "description": "Engineers working across frontend and backend technologies, databases, and system architecture",
+    "icon": "Layers",
+    "exampleQueries": [
+      "Fullstack project templates",
+      "MERN stack tutorials",
+      "JWT authentication examples",
+      "Complete application guides"
+    ]
+  },
+  {
+    "id": "mobile-developers",
+    "name": "Mobile Developers",
+    "description": "iOS and Android developers building native and cross-platform mobile applications",
+    "icon": "Smartphone",
+    "exampleQueries": [
+      "React Native components",
+      "Flutter widgets",
+      "iOS Swift examples",
+      "Android Kotlin tutorials"
+    ]
+  },
+  {
+    "id": "data-scientists",
+    "name": "Data Scientists",
+    "description": "Analysts and ML engineers working with big data, statistics, and predictive modeling",
+    "icon": "BarChart3",
+    "exampleQueries": [
+      "Jupyter notebook examples",
+      "Pandas data analysis",
+      "Machine learning models",
+      "Statistical analysis tutorials",
+      "Dataset repositories"
+    ]
+  },
+  {
+    "id": "ai-researchers",
+    "name": "AI Researchers",
+    "description": "Machine learning, deep learning, and artificial intelligence specialists",
+    "icon": "Brain",
+    "exampleQueries": [
+      "Research papers on LLMs",
+      "Neural network architectures",
+      "Computer vision datasets",
+      "AI ethics guidelines",
+      "Transformers documentation"
+    ]
+  },
+  {
+    "id": "security-researchers",
+    "name": "Security Researchers",
+    "description": "Ethical hackers, penetration testers, and vulnerability researchers",
+    "icon": "Shield",
+    "exampleQueries": [
+      "CVE vulnerability reports",
+      "Penetration testing guides",
+      "Security audit checklists",
+      "Bug bounty programs",
+      "OWASP documentation"
+    ]
+  },
+  {
+    "id": "devops-engineers",
+    "name": "DevOps Engineers",
+    "description": "Infrastructure, CI/CD, containerization, and deployment specialists",
+    "icon": "GitMerge",
+    "exampleQueries": [
+      "Kubernetes deployment",
+      "Docker best practices",
+      "CI/CD pipeline examples",
+      "Terraform modules",
+      "Monitoring setup guides"
     ]
   },
   {
     "id": "designers",
     "name": "Designers",
-    "description": "UI/UX designers, graphic designers, and creatives",
+    "description": "UI/UX designers, graphic designers, and creative professionals",
     "icon": "Palette",
     "exampleQueries": [
       "Inspiration websites",
       "UI kits",
       "Fonts",
-      "Icon collections"
+      "Icon collections",
+      "Design system documentation",
+      "Figma templates",
+      "Design guidelines"
+    ]
+  },
+  {
+    "id": "ux-designers",
+    "name": "UX Designers",
+    "description": "User experience specialists focused on research, usability, and interaction design",
+    "icon": "UserCheck",
+    "exampleQueries": [
+      "User research templates",
+      "Usability testing guides",
+      "Persona templates",
+      "Journey mapping examples",
+      "Accessibility standards"
     ]
   },
   {
     "id": "journalists",
     "name": "Journalists",
-    "description": "Reporters, writers, and media professionals",
+    "description": "Reporters, writers, and media professionals conducting investigative reporting",
     "icon": "Newspaper",
     "exampleQueries": [
       "Public reports",
       "Government publications",
-      "Research papers"
+      "Research papers",
+      "Court documents",
+      "Whistleblower reports",
+      "Financial filings",
+      "Press release archives"
+    ]
+  },
+  {
+    "id": "investigative-journalists",
+    "name": "Investigative Journalists",
+    "description": "Deep investigation specialists uncovering hidden information and public interest stories",
+    "icon": "Search",
+    "exampleQueries": [
+      "Public databases",
+      "Court records",
+      "Corporate filings",
+      "Government contracts",
+      "Lobbying disclosures",
+      "Campaign finance data"
     ]
   },
   {
@@ -42,18 +181,26 @@
     "exampleQueries": [
       "Competitor websites",
       "Industry reports",
-      "Trends"
+      "Trends",
+      "Campaign case studies",
+      "Marketing analytics guides",
+      "SEO strategies",
+      "Social media templates"
     ]
   },
   {
-    "id": "seo",
+    "id": "seo-specialists",
     "name": "SEO Specialists",
     "description": "Search engine optimization experts and digital marketers",
     "icon": "Search",
     "exampleQueries": [
       "Index analysis",
       "Content research",
-      "Keyword discovery"
+      "Keyword discovery",
+      "Backlink opportunities",
+      "SEO audit templates",
+      "SERP analysis",
+      "Technical SEO guides"
     ]
   },
   {
@@ -64,7 +211,10 @@
     "exampleQueries": [
       "Portfolio discovery",
       "Public resumes",
-      "LinkedIn alternatives"
+      "LinkedIn alternatives",
+      "Technical candidate profiles",
+      "Passive candidate identification",
+      "Professional directories"
     ]
   },
   {
@@ -75,29 +225,11 @@
     "exampleQueries": [
       "Academic papers",
       "Open courses",
-      "Educational PDFs"
-    ]
-  },
-  {
-    "id": "founders",
-    "name": "Startup Founders",
-    "description": "Entrepreneurs and startup leaders",
-    "icon": "Rocket",
-    "exampleQueries": [
-      "Competitor analysis",
-      "Market research",
-      "Industry databases"
-    ]
-  },
-  {
-    "id": "writers",
-    "name": "Writers",
-    "description": "Authors, content creators, and copywriters",
-    "icon": "PenTool",
-    "exampleQueries": [
-      "References",
-      "Quotes",
-      "Public archives"
+      "Educational PDFs",
+      "Thesis examples",
+      "Student project templates",
+      "Cheat sheets",
+      "Study guides"
     ]
   },
   {
@@ -108,7 +240,11 @@
     "exampleQueries": [
       "Scientific papers",
       "Datasets",
-      "Open publications"
+      "Open publications",
+      "Research methodology",
+      "Citation databases",
+      "Conference proceedings",
+      "Grant applications"
     ]
   },
   {
@@ -119,7 +255,11 @@
     "exampleQueries": [
       "Historical documents",
       "Archives",
-      "Past publications"
+      "Past publications",
+      "Primary sources",
+      "Digital archives",
+      "Manuscript collections",
+      "Oral history transcripts"
     ]
   },
   {
@@ -130,7 +270,191 @@
     "exampleQueries": [
       "Datasets",
       "Reports",
-      "Open data sources"
+      "Open data sources",
+      "Business metrics",
+      "Analytics dashboards",
+      "SQL queries",
+      "Visualization examples"
+    ]
+  },
+  {
+    "id": "founders",
+    "name": "Startup Founders",
+    "description": "Entrepreneurs and startup leaders",
+    "icon": "Rocket",
+    "exampleQueries": [
+      "Competitor analysis",
+      "Market research",
+      "Industry databases",
+      "Pitch deck examples",
+      "Startup funding data",
+      "Business model templates",
+      "Incubator programs"
+    ]
+  },
+  {
+    "id": "writers",
+    "name": "Writers",
+    "description": "Authors, content creators, and copywriters",
+    "icon": "PenTool",
+    "exampleQueries": [
+      "References",
+      "Quotes",
+      "Public archives",
+      "Style guides",
+      "Writing templates",
+      "Grammar resources",
+      "Content examples"
+    ]
+  },
+  {
+    "id": "academics",
+    "name": "Academics",
+    "description": "Professors, researchers, and scholarly professionals",
+    "icon": "University",
+    "exampleQueries": [
+      "Research papers",
+      "Citation databases",
+      "Grant opportunities",
+      "Conference calls",
+      "Academic journals",
+      "University resources",
+      "Scholarly articles"
+    ]
+  },
+  {
+    "id": "lawyers",
+    "name": "Lawyers",
+    "description": "Legal professionals researching case law and regulations",
+    "icon": "Scale",
+    "exampleQueries": [
+      "Case law",
+      "Statutes",
+      "Regulations",
+      "Legal databases",
+      "Court filings",
+      "Precedents",
+      "Legal forms"
+    ]
+  },
+  {
+    "id": "medical-researchers",
+    "name": "Medical Researchers",
+    "description": "Clinical researchers and medical professionals",
+    "icon": "Stethoscope",
+    "exampleQueries": [
+      "Clinical trials",
+      "Medical journals",
+      "Research papers",
+      "Drug approvals",
+      "Patient studies",
+      "Medical datasets",
+      "FDA documents"
+    ]
+  },
+  {
+    "id": "investors",
+    "name": "Investors",
+    "description": "Venture capitalists, angel investors, and financial analysts",
+    "icon": "TrendingUp",
+    "exampleQueries": [
+      "Financial reports",
+      "SEC filings",
+      "Startup funding",
+      "Investment thesis",
+      "Market analysis",
+      "Earnings calls",
+      "Private equity data"
+    ]
+  },
+  {
+    "id": "consultants",
+    "name": "Consultants",
+    "description": "Management, strategy, and technical consultants",
+    "icon": "Briefcase",
+    "exampleQueries": [
+      "Industry benchmarks",
+      "Best practices",
+      "Case studies",
+      "Framework templates",
+      "Consulting playbooks",
+      "Client presentations",
+      "Methodology guides"
+    ]
+  },
+  {
+    "id": "product-managers",
+    "name": "Product Managers",
+    "description": "Product leaders managing roadmaps and user experience",
+    "icon": "Package",
+    "exampleQueries": [
+      "Product specs",
+      "User research",
+      "Competitor features",
+      "Roadmap templates",
+      "PRD examples",
+      "A/B testing guides",
+      "Metrics frameworks"
+    ]
+  },
+  {
+    "id": "sysadmins",
+    "name": "System Administrators",
+    "description": "IT infrastructure and system maintenance professionals",
+    "icon": "Terminal",
+    "exampleQueries": [
+      "Linux commands",
+      "Windows admin guides",
+      "Network configuration",
+      "Security hardening",
+      "Backup strategies",
+      "Performance tuning",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "id": "network-engineers",
+    "name": "Network Engineers",
+    "description": "Networking professionals managing infrastructure and connectivity",
+    "icon": "Network",
+    "exampleQueries": [
+      "Network diagrams",
+      "Cisco configs",
+      "Firewall rules",
+      "VPN setups",
+      "Network protocols",
+      "Wireshark guides",
+      "Routing protocols"
+    ]
+  },
+  {
+    "id": "cloud-architects",
+    "name": "Cloud Architects",
+    "description": "Cloud infrastructure and architecture specialists",
+    "icon": "Cloud",
+    "exampleQueries": [
+      "AWS architectures",
+      "Azure reference",
+      "GCP solutions",
+      "Terraform modules",
+      "Serverless patterns",
+      "Multi-cloud strategies",
+      "Cost optimization"
+    ]
+  },
+  {
+    "id": "blockchain-devs",
+    "name": "Blockchain Developers",
+    "description": "Smart contract and blockchain infrastructure engineers",
+    "icon": "Link",
+    "exampleQueries": [
+      "Solidity contracts",
+      "Smart contract audits",
+      "DeFi protocols",
+      "NFT standards",
+      "Web3 documentation",
+      "Crypto security",
+      "Token economics"
     ]
   }
 ]
